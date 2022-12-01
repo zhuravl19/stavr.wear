@@ -1,0 +1,188 @@
+<style type="text/css">
+
+body {
+  font-family: 'Josefin Sans', sans-serif;
+  box-sizing: border-box;
+}
+.container-fluid{
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background: #FFF;
+}
+/* ============= Animation background ========= */
+.background {
+  background: linear-gradient(132deg, #000000, #001300, #000000);
+  background-size: 228% 228%;
+  animation: Gradient 10s ease infinite;
+  position: relative;
+  height: 123%;
+  width: 123%;
+  overflow: hidden;
+  padding:0;
+  margin:0px;
+}
+/*================ LOTYPE ====================== */
+.brands {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(51px, 51px));
+  grid-gap: 1rem;
+}
+
+.brands__item {
+    margin-top:16px;
+    background: #eee;
+}
+
+.brands__item img {
+    display: block;
+    /* Не забудьте о свойстве max-width */
+    max-width: 51px;
+}
+
+/* ================= Header ============ */
+header{
+  position: absolute;
+  top:0%;
+  left: 0%;
+  width:100%;
+  margin: 0;
+  padding: 0;
+}
+/* navbar */
+nav{
+  color: #FFF;
+  float: right;
+  margin:30px 90px;
+}
+nav ul{
+  list-style: none;
+}
+nav ul li {
+  float: left;
+  transition: .3s;
+}
+nav ul li a{
+  text-decoration: none;
+  color: #EFEEF5;
+  transition: .5;
+  font-size: 15px;
+  margin-left:16px;
+}
+nav ul li:hover a{
+  text-decoration: none;
+  color: #591BC5;;
+}
+nav ul li:hover{
+  color: #fff; /* цвет текста */
+  text-decoration: none; /* убирать подчёркивание у ссылок */
+  user-select: none; /* убирать выделение текста */
+  background: white;); /* фон кнопки */
+  padding: .0em 0em; /* отступ от текста */
+  
+}
+
+/* Header content & title & button*/
+.header-content{
+  margin-top:10%;
+  text-align: center;
+  color:  #EFEEF5;
+}
+.header-content h1{
+  text-transform: uppercase;
+  font-size: 3em;
+  letter-spacing: 1px;
+}
+.header-content p {
+  font-size: 20px;
+  line-height: 1.5;
+  margin: 20px auto;
+}
+.header-content button{
+  width: 140px;
+  margin:20px 10px;
+  color: #591BC5;
+  font-size: 17px;
+  border:1px solid #EFEEF5;
+  font-weight: 500;
+  background: #EFEEF5;
+  border-radius: 20px;
+  padding: 10px;
+  cursor:pointer;
+  transition: .3s;
+}
+.header-content button:hover{
+  border-radius: 0;
+}
+/* Animate Background*/
+@keyframes Gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  
+}
+
+
+</style>
+
+
+
+<!-- Background & animion & navbar & title -->
+  <div class="container-fluid">
+<!-- Background animtion-->
+    <div class="background">
+    </div>
+<!-- header -->
+   <header>
+<!-- navbar -->
+     <nav>
+        <ul>
+            <li><a href="file:///C:/Users/sstavropoltsev/Desktop/stavr.wear.html">Назад</a></li>
+         </ul>
+       </nav>
+<!-- logo -->
+
+<ul class="brands">
+    <li class="brands__item">
+        <a href="#">
+            <img src="https://flomaster.club/uploads/posts/2021-12/1639166214_73-flomaster-club-p-bukvi-karandashom-dlya-srisovki-krasivie-r-85.jpg" alt="">
+        </a>
+    </li>
+    <li> <!-- другие логотипы --> </li>
+</ul>
+
+<!-- title & content -->
+      <section class="header-content">
+         <h1>Иван на подписании контрактов</h1>
+        <p>со звёздами<br>
+      </section>
+	  <div class"wrapper">
+		<img src="C:\Users\sstavropoltsev\Downloads\иванфотоуилл.jpeg" width="250" height="300" style="margin-left: 270px;">
+		<img src="C:\Users\sstavropoltsev\Downloads\иванфотоскала.jpeg" width="250" height="300" style="margin-left: 30px;">
+		<img src="C:\Users\sstavropoltsev\Downloads\иванфоторон.jpeg" width="250" height="300" style="margin-left: 30px;">
+	</div>
+  </header>
+
+
+
+<article class="wrapper">
+  <h2 class="title"><p><br>
+  
+  
+  </h2>
+</article>
+

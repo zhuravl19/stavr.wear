@@ -1,0 +1,90 @@
+<style type="text/css">
+
+.chat__header {
+  text-align: center;
+}
+
+.chat__item {
+  display: flex;
+  align-items: flex-start;
+}
+
+.chat__person-avatar {
+  border-radius: 50%;
+}
+
+.chat__messages {
+  margin-left: 10px;
+}
+
+.chat__message {
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+
+.chat__message-content {
+  border-radius: 5px;
+  padding: 7px;
+  background-color: #ccc;
+  display: inline-block;
+  
+  margin-left: 5px;
+}
+
+.chat__item--responder {
+  flex-direction: row-reverse;
+}
+
+  .chat__item--responder .chat__message {
+    flex-direction: row-reverse;
+  }
+
+  .chat__item--responder .chat__message-content {
+    margin-left: 0;
+    margin-right: 5px;
+  }
+
+</style>
+
+<div class="chat"> 
+  <h1 class="chat__header">Чат обшения двух гениев</h1>
+
+  <div class="chat__content">
+    <div class="chat__item">
+      <img src="https://sun9-83.userapi.com/impg/rosl02n1QnlRbSvdOR6MXwGSFxVKUgIBmxj7UQ/Hde6XdJVzUk.jpg?size=827x1080&quality=95&sign=8a76d66e4a7ee8a1f414de0c69fc6b6a&type=album" width="200" height="250" alt="photo"  class="chat__person-avatar">
+    
+      <div class="chat__messages">
+        <div class="chat__message">
+          <div class="chat__message-time">19:06</div>
+          <div class="chat__message-content">Здравствуйте, Илон Маск?</div>
+        </div>
+        
+        <div class="chat__message">
+          <div class="chat__message-time">19:06</div>
+          <div class="chat__message-content">Как дела? Когда вы станете 4 человеком пауком?</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="chat__item chat__item--responder">
+      <img src="https://tse1.mm.bing.net/th/id/OIP.9kgfYxPda1D-4XBKNyHG-wHaKR?w=194&h=269&c=7&r=0&o=5&pid=1.7" alt="photo" class="chat__person-avatar">
+    
+      <div class="chat__messages">
+        <div class="chat__message">
+          <div class="chat__message-time">23:19</div>
+          <div class="chat__message-content">Приветсвую вас, Иван!</div>
+        </div>
+        
+        <div class="chat__message">
+          <div class="chat__message-time">23:21</div>
+          <div class="chat__message-content">У меня всё замечательно, сейчас лечу на луну!</div> 
+        </div>
+        
+        <div class="chat__message">
+          <div class="chat__message-time">23:23</div>
+          <div class="chat__message-content">Думаю вы ни ко мне обратились, но идея топ!           </div>
+      </div>
+    </div>
+  </div>
+</div>
